@@ -14,7 +14,7 @@ En el comercio minorista diario, la fijación de precios y la actualización de 
 
 	------------------------------------------------------------
 
-## rquitectura Teórica (Flujo Modular de 3 Pasos)
+## Arquitectura Teórica (Flujo Modular de 3 Pasos)
 Para garantizar la precisión contable y evitar que la IA cometa errores matemáticos, el sistema se diseñó bajo la metodología *Chain of Thought* (Cadena de Pensamiento), dividiendo la lógica en tres eslabones donde la salida de uno alimenta al siguiente:
 
 ### PASO 1: El Extractor de Datos (Contexto)
@@ -33,8 +33,8 @@ Instrucciones:
 
 Variables de Entrada:
 * Datos de la compra: [Datos Brutos]
-* Tasa del dólar del día: [Tasa] ```
-
+* Tasa del dólar del día: [Tasa] 
+```
 
 ### PASO 2: El Calculador Financiero (Procesamiento)
 Aplica las reglas de negocio, el margen del 30% y la regla estricta de redondeo.
@@ -71,7 +71,7 @@ Instrucciones de Formato:
 Datos de Entrada: [Resultado del Paso 2]
 ```
 
-###VERSION SIMPLIFICADA PARA PRODUCCION DIARIA: 
+### VERSION SIMPLIFICADA PARA PRODUCCION DIARIA: 
 Para eliminar la fricción de copiar y pegar múltiples bloques de texto en el día a día,
 se compilaron las tres fases en un único prompt de ejecución continua. Al 
 cargarlo una sola vez al inicio del chat, la IA queda automatizada para procesar cualquier lista de productos de forma sucesiva:
