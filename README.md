@@ -97,6 +97,7 @@ Entrada enviada por el usuario:
 
 Respuesta Automatizada de la IA:
 
+```
 Producto: toallas Axiao
 Unidades: 6
 Costo de Compra: 2760
@@ -106,5 +107,5 @@ Precio Venta (USD): 1.1
 VISTA SIMPLIFICADA:
 Toallas Axiao: $1.1
 
-
+```
 
