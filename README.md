@@ -97,8 +97,11 @@ Entrada enviada por el usuario:
 
 Respuesta Automatizada de la IA:
 
-Producto,	Unidades,	Costo de Compra,	Tasa Dólar,		Precio Venta (USD)
-Toallas Axiao,	6,		2760,			567,			1.1
+Producto: toallas Axiao
+Unidades: 6
+Costo de Compra: 2760
+Tasa Dólar: 567
+Precio Venta (USD): 1.1
 
 VISTA SIMPLIFICADA:
 Toallas Axiao: $1.1
